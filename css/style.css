@@ -39,8 +39,12 @@ h4 {
 }
 
 section{
-  max-width: 60%;
+  width: 60%;
   margin: 0 auto;
+}
+
+section section {
+  width: 100%;
 }
 
 img {
@@ -57,4 +61,30 @@ a{
   color:#99ffff;
   font-weight: 700;
   text-decoration: none;
+}
+
+.principal ul li a{
+  color: white;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal {
+  background: #ff6cb5;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.principal li {
+  display: inline-block;
+  line-height: 2.5; 
+  margin: 0 89px;
+}
+
+button {
+  background: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
 }
